@@ -9,7 +9,6 @@ it("renders without crashing", function () {
 
 // snapshot test
 it("matches snapshot", function () {
-    const { asFragment } = render(<Card />);
-    expect(asFragment()).toMatchSnapshot();
-  });
-  
+  const { asFragment } = render(<Card />);
+  expect(asFragment()).toMatchSnapshot();
+});
